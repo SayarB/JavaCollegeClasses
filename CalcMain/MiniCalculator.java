@@ -9,6 +9,7 @@ import myCalc.D;
 import myCalc.Div;
 import myCalc.Fact;
 import myCalc.Max;
+import myCalc.Min;
 
 public class MiniCalculator {
     public static void main(String[] args)
@@ -19,37 +20,44 @@ public class MiniCalculator {
         {
             case 1:{
                 Add add = new Add();
-                add.getInput();                
+                add.getInput();
+                add.displayResult();           
                 break;
             }
             case 2:{
                 Sub sub = new Sub();
                 sub.getInput();
+                sub.displayResult();
                 break;
             }
             case 3:{
                 Mul mul = new Mul();
                 mul.getInput();
+                mul.displayResult();
                 break;
             }
             case 4:{
                 Div div = new Div();
                 div.getInput();
+                div.displayResult();
                 break;
             }
             case 5:{
                 Fact fact = new Fact();
                 fact.getInput();
+                fact.displayResult();
                 break;
             }
             case 6:{
                 Max max = new Max();
                 max.getInput();
+                max.displayResult();
                 break;
             }
             case 7:{
                 Min min = new Min();
-                min.get
+                min.getInput();
+                min.displayResult();
             }
         }
     }

@@ -20,5 +20,10 @@ public class Fact {
     {
         System.out.print("Enter a number : ");
         this.a = new Scanner(System.in).nextInt();
+        operate();
+    }
+    public void displayResult()
+    {
+        System.out.println("Result : "+this.result);
     }
 }
